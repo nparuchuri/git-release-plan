@@ -13,5 +13,12 @@ public class MainController {
 		
 		return "Greetings from Spring Boot!";
 	}
+	
+	@GetMapping("/dev")
+	public String developmentBranch() {
+		
+		return "This version is dev branch";
+		
+	}
 
 }
