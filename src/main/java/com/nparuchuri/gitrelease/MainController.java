@@ -17,8 +17,13 @@ public class MainController {
 	@GetMapping("/dev")
 	public String developmentBranch() {
 		
-		return "This version is dev branch";
+		return "This version is dev branch - v1";
 		
+	}
+	
+	@GetMapping("/f1")
+	public String featureOne() {
+		return "This version is dev branch - v1";
 	}
 
 }
