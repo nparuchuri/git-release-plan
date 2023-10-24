@@ -23,7 +23,7 @@ public class MainController {
 	
 	@GetMapping("/f1")
 	public String featureOne() {
-		return "This version is dev branch - v1";
+		return "This version is has feature 1 - v1";
 	}
 
 }
